@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header 11</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            width: 1400px;
+            height: 930px;
+            background: #FFF;
+        }
+        .menu{
+            width: 970px;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 66px 215px 66px 215px;
+            box-sizing: border-box;
+        }
+        .startup{
+            color: #1E0E62;
+            text-align: center;
+            font-family: DM Sans;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.293px;
+        }
+        .about{
+            color: #1E0E62;
+            opacity: 0.3;
+            /* Buttons / Middle */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+        }
+        .menua span{
+            color: #1E0E62;
+            margin-right: 15px;
+            /* Buttons / Middle */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+        }
+        .btna{
+            width: 80px;
+            height: 40px;
+            border-radius: 100px;
+            background:#482BE7;
+            color: var(--colors-white, #FFF);
+            text-align: center;
+            border: none;
+
+            /* Buttons / Middle */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+        }
+        .maincontainer{
+            width: 100%;
+            display: flex;
+            
+        }
+        .left{
+            width: 50%;
+            padding-left: 215px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+        .txta{
+            width: 400px;
+            color:  #1E0E62;
+            margin-bottom: 50px;
+            /* Heading / H2 Header */
+            font-family: DM Sans;
+            font-size: 58px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 70px; /* 120.69% */
+            letter-spacing: -1px;
+        }
+        .txtb{
+            width: 370px;
+            color: rgba(21, 20, 57, 0.40);
+            opacity: 0.7;
+            margin-bottom: 50px;
+            /* Heading / H5 Lead */
+            font-family: DM Sans;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 145.455% */
+        }
+        .maina{
+            display: flex;
+            align-items: center;
+        }
+        .btnb{
+            width: 153px;
+            height: 50px;
+            border-radius: 100px;
+            background:  #25DAC5;
+            color:  #FFF;
+            margin-right: 15px;
+            text-align: center;
+            border: none;
+            /* Buttons / Middle */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+        }
+        .txtc{
+            color: #1E0E62;
+            text-align: center;
+
+            /* Buttons / Middle */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+        }
+
+
+
+        .right{
+            width: 50%;
+            position: relative;
+        }
+
+        #img2{
+            position: absolute;
+            left: 20px;
+            top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="startup">Startup3</div>
+        <div class="menua">
+            <span class="about">About</span>
+            <span>Feature</span>
+            <span>Contacts</span>
+            <button class="btna">Buy</button>
+        </div>
+    </div>
+    <div class="maincontainer">
+        <div class="left">
+            <div class="txta">Great things begin in a small way</div>
+            <div class="txtb">We haven’t forgotten about responsive layout. With Startup Framework, you can create a website with full mobile support.</div>
+            <div class="maina">
+                <button class="btnb">Get Started</button>
+                <span class="txtc">Learn More</span>
+            </div>
+        </div>
+        <div class="right">
+            <img id="img1" src="./11b.png"/>
+            <img id="img2" src="./11a.png"/>
+        </div>
+    </div>
+</body>
+</html>

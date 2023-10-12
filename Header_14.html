@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header 14</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    <style>
+        body{
+            width: 1400px;
+            height: 890px;
+            background: #2F1893;
+        }
+        .menu{
+            width: 972px;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 65px 215px 65px 215px;
+            box-sizing: border-box;
+
+        }
+        .startup{
+            color: #FFF;
+            text-align: center;
+            font-family: DM Sans;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.293px;
+        }
+        .Over{
+            color: #FFF;
+            opacity: 0.3;
+            /* Buttons / Middle */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+        }
+        .menua span{
+            margin-right: 15px;
+            color: #FFF;
+
+            /* Buttons / Middle */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+
+        }
+        .btna{
+            width: 120px;
+            height: 40px;
+            border-radius: 100px;
+            color:  #FFF;
+            text-align: center;
+            border: none;
+            /* Buttons / Middle */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+            background:  #E93A7D;
+        }
+        .maincontainer{
+            width: 100%;
+            display: flex;
+        }
+        .left{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            margin-left: 215px;
+        }
+        .txta{
+            width: 424px;
+            height: 217px;
+            color: #FFF;
+            margin-bottom: 35px;
+            /* Heading / H2 Header */
+            font-family: DM Sans;
+            font-size: 58px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 70px; /* 120.69% */
+            letter-spacing: -1px;
+        }
+        .txtb{
+            width: 363px;
+            color: #FFF;
+            margin-bottom: 35px;
+            /* Heading / H5 Lead */
+            font-family: DM Sans;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 145.455% */
+        }
+        .btnb{
+            width: 157px;
+            height: 50px;
+            border-radius: 100px;
+            background: #E93A7D;
+            color: var(--colors-white, #FFF);
+            text-align: center;
+            border: none;
+            /* Buttons / Middle */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+        }
+
+
+
+
+
+        .right{
+            width: 50%;
+            margin-right: 180px;
+        }
+        .form{
+            width: 470px;
+            height: 600px;
+            border-radius: 10px;
+            background: #FFF;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .forma{
+            color: #1E0E62;
+            text-align: center;
+            margin-bottom: 35px;
+            margin-top: 35px;
+            /* Heading / H3 Title */
+            font-family: DM Sans;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 52px; /* 123.81% */
+            letter-spacing: -0.4px;
+        }
+        .form input{
+            width: 330px;
+            height: 50px;
+            border-radius: 100px;
+            border: 2px solid #EBEAED;
+            color: rgba(21, 20, 57, 0.40);
+            margin-bottom: 30px;
+            /* Buttons / Middle */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+        }
+        #checkbox{
+            width: 24px;
+            height: 24px;
+
+        }
+        .btnc{
+            margin-top: 20px;
+            width: 330px;
+            height: 50px;
+            border-radius: 100px;   
+            background: #482BE7;
+            color: var(--colors-white, #FFF);
+            text-align: center;
+            border: none;
+            /* Buttons / Middle */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+            margin-bottom: 10px;
+        }
+        .btnd{
+            width: 330px;
+            height: 50px;
+            border-radius: 100px;
+            background: #1DA1F2;
+            border: none;
+            color:  #FFF;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            /* Buttons / Middle */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+        }
+
+        .sa{
+            color: rgba(21, 20, 57, 0.40);
+            text-align: center;
+
+            /* Text / Article */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px; /* 155.556% */
+        }
+        .sb{
+            color:#25DAC5;
+
+            /* Text / Article */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px; /* 155.556% */
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="startup">Startup3</div>
+        <div class="menua">
+            <span class="Over">Overview</span>
+            <span>Prices</span>
+            <span>Blog</span>
+            <span>Feedback</span>
+            <button class="btna">Purchase</button>
+        </div>
+    </div>
+    <div class="maincontainer">
+        <div class="left">
+            <div class="txta">Generate Awesome Web Pages</div>
+            <div class="txtb">The most important part of the Startup is the samples. The samples form a set of 25 usable pages you can use as is or you can add new blocks.</div>
+            <button class="btnb">Learn More</button>
+        </div>
+        <div class="right">
+            <div class="form">
+                <span class="forma">Sign Up Now</span><br/>
+                <input type="email" placeholder="Your Email"/>
+                <input type="password" placeholder="Your Password"/>
+                <span style="position: relative;"><input style="position: absolute;top: -5px;left: -45px;" id="checkbox" type="checkbox"/>I agree to terms of service.</span>
+                <button class="btnc">Sign In</button>
+                <div style="display: flex;width: 100%;justify-content: center;align-items: center;">
+                    <div style="width: 25%;height: 2px; background-color: lightgray;"></div>
+                    <span style="margin: 10px;">Or</span>
+                    <div  style="width: 25%;height: 2px;background-color: lightgray;"></div>
+                </div>
+                <button class="btnd">Login via Twitter</button>
+                <span class="sa">Do you have an Account?<span class="sb">  Sign in</span></span>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

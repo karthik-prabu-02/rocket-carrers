@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header 10</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        body{
+            width: 1400px;
+            height: 910px;  
+            background:  #2F1893;
+        }
+        .maincontainer{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu{
+            width: 971px;
+            height: 40px;
+            display: flex;
+            margin: 33px 0 33px 0;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .startup{
+            color: #FFF;
+            text-align: center;
+            font-family: DM Sans;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.293px;
+        }   
+        .menua span, .menub span{
+            color: #FFF;
+            margin-right: 15px;
+            /* Buttons / Small */
+            font-family: DM Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px; /* 137.5% */
+        }
+        .btn{
+            width: 94px;
+            height: 40px;
+            border-radius: 100px;
+            border: 2px solid #FFF;
+            opacity: 0.3;
+           
+            text-align: center;
+
+            /* Buttons / Small */
+            font-family: DM Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px; /* 137.5% */
+        }
+        .txta{
+            width: 872px;
+            color: #FFF;
+            text-align: center;
+            margin-bottom: 30px;
+            /* Heading / H2 Header */
+            font-family: DM Sans;
+            font-size: 58px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 70px; /* 120.69% */
+            letter-spacing: -1px;
+        }
+        .txtb{
+            width: 665px;
+            color: #FFF;
+            text-align: center;
+            margin-bottom: 30px;
+
+            /* Heading / H5 Lead */
+            font-family: DM Sans;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 145.455% */
+        }
+        .btnb{
+            width: 280px;
+            height: 70px;
+            border-radius: 100px;
+            background: #25DAC5;
+            color: var(--colors-white, #FFF);
+            text-align: center;
+            margin: 25px 0 50px 0;
+            box-sizing: border-box;
+            border: none;
+            /* Buttons / Big */
+            font-family: DM Sans;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 130% */
+        }
+        .vedio{
+            display: flex;
+        }
+        .va{
+            width: 170px;
+            height: 110px;
+            margin-right: 20px;
+            position:relative;
+        }
+        .vb{
+            width: 170px;
+            margin-right: 20px;
+            color: #FFF;
+
+            /* Text / Article */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px; /* 155.556% */
+        }
+        .vc{
+            width: 170px;
+            height: 110px;
+            margin-right: 20px;
+            position:relative;
+        }
+        .vd{
+            width: 170px;
+            color: #FFF;
+
+            /* Text / Article */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px; /* 155.556% */
+        }
+        #icona{
+            color: wheat;
+            position: absolute;
+            top: 50px;
+            left: 80px;   
+        }
+        #iconb{
+             color: wheat ;
+             position: absolute;
+             top: 50px;
+             left: 80px;  
+        }
+
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="menu">
+            <div class="menua">
+                <span class="startup">Startup3</span>
+                <span>Products</span>
+                <span>Pricing</span>
+                <span>Community</span>
+            </div>
+            <div class="menub">
+                <span>Help</span>
+                <span>Login</span>
+                <button class="btn">Signup</button>
+            </div>
+        </div>
+        <div class="txta">A high-quality solution for those who want a beautiful startup website quickly</div>
+        <div class="txtb">Startup contains components and complex blocks which can easily be integrated into almost any design.</div>
+        <button class="btnb">Get Started for Free</button>
+        <div class="vedio">
+            <div class="va">
+                <img id="img1" src="./header10a.png"/>
+                <i id="icona" class="fa-solid fa-play"></i>
+            </div>
+            <div class="vb">A high-quality solution for a beautiful startup website.</div>
+            <div class="vc">
+                <img src="./header10b.png"/>
+                <i id="iconb" class="fa-solid fa-play"></i>
+            </div>
+            <div class="vd">Learn more about Startup Framework in demo version.</div>
+
+        </div>
+    
+    
+    </div>
+    
+</body>
+</html>

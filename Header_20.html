@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header 20</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            width: 1400px;
+            height: 1070px;
+            background:  #2F1893;
+        }
+        .bt{
+            margin: 73px 215px 73px 1169px ;
+            box-sizing: border-box;
+            color: #FFFFFF;
+        }
+        .main{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .left{
+            position: relative;
+            width: 50%;
+            margin-left: 200px;
+        }
+        .imga{
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            z-index: -1;
+        }
+
+        .right{
+            width: 50%;
+        }
+        .startup{
+            color: #FFF;
+            text-align: start;
+            font-family: DM Sans;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.293px;
+        }
+        .txta{
+            width: 505px;
+            color: var(--colors-white, #FFF);
+            margin: 30px 0 30px 0;
+            /* Heading / H1 Hero */
+            font-family: DM Sans;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 86px; /* 119.444% */
+            letter-spacing: -1px;
+        }
+        .txtb{
+            width: 400px;
+            margin-bottom: 30px;
+            color: #FFF;
+
+            /* Heading / H5 Lead */
+            font-family: DM Sans;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 145.455% */
+        }
+        .btn{
+            width: 170px;
+            height: 60px;
+            border-radius: 100px;
+            background: #25DAC5;
+            color: var(--colors-white, #FFF);
+            text-align: center;
+            border: none;
+            /* Buttons / Big */
+            font-family: DM Sans;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 130% */
+        }
+    </style>
+</head>
+<body>
+    <div class="bt"><i class="fa-solid fa-bars-staggered"></i></div>
+    <div class="main">
+        <div class="left">
+            <img src="./20a.png"/>
+            <img class="imga" src="./20b.png"/>
+        </div>
+        <div class="right">
+            <div class="startup">Startup3</div>
+            <div class="txta">Let’s make design fast and easy</div>
+            <div class="txtb">The most important part of the Startup Framework is the samples. The samples form a set of 25 usable pages you can use as is or you can add new blocks from UI Kit.</div>
+            <button class="btn">Get Started</button>
+        </div>
+
+    </div>
+</body>
+</html>

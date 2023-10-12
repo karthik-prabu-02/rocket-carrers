@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header 12</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            width: 1400px;
+            height: 940px;
+            background:  #2F1893;
+        }
+        .maincontainer{
+            width: 100%;
+            display: flex;
+            margin: 154px 0 154px 217px;
+            box-sizing: border-box;
+        }
+        .left{
+            width: 50%;
+        }
+        .startup{
+            color:  #FFF;
+            margin-bottom: 50px;
+            font-family: DM Sans;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.293px;
+        }
+        .txta{
+            width: 400px;
+            color: var(--colors-white, #FFF);
+            margin-bottom: 30px;
+            /* Heading / H2 Header */
+            font-family: DM Sans;
+            font-size: 58px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 70px; /* 120.69% */
+            letter-spacing: -1px;
+        }
+        .txtb{
+            margin-bottom: 50px;
+            width: 371px;
+            color: var(--colors-white, #FFF);
+
+            /* Heading / H5 Lead */
+            font-family: DM Sans;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 145.455% */
+        }
+        .btn{
+            width: 275px;
+            height: 60px;
+            border-radius: 100px;
+            background: #25DAC5;
+            color: var(--colors-white, #FFF);
+            text-align: center;
+            border: none;
+            /* Buttons / Middle */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+        }
+
+
+        .right{
+            width: 50%;
+            position: relative;
+        }
+        
+        #imgb{
+            position: absolute;
+            top: 20px;
+            right: 345px;
+            z-index: -1;
+        }
+        #imgc{
+            position: absolute;
+            top: 30px;
+            right: 200px;
+            z-index: -11;
+        }
+        #imgd{
+            position: absolute;
+            top: 52px;
+            right: 222px;
+            z-index: -111;
+        }
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="left">
+            <div class="startup">Startup3</div>
+            <div class="txta">Beautiful Startup Framework for Your Next Project</div>
+            <div class="txtb">A high-quality solution for those who want a bea-utiful startup website quickly.</div>
+            <button class="btn">Download From App Store</button>
+        </div>
+        <div class="right">
+            <img id="imga" src="./12a.png"/>
+            <img id="imgb" src="./12b.png"/>
+            <img id="imgc" src="./12c.png"/>
+            <img id="imgd" src="./12d.png"/>
+        </div>
+    </div>
+</body>
+</html>

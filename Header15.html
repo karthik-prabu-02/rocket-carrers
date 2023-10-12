@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header 15</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            width: 1600px;
+            height: 1200px;
+            background: #FFF;
+        }
+        .maincontainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 972px;
+            height: 40px;
+            margin: 36px 215px 30px 215px;
+            box-sizing: border-box;
+        }
+        .startup{
+            color:  #1E0E62;
+            text-align: center;
+            font-family: DM Sans;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.293px;
+        }
+        .menua span{ 
+            margin-right: 15px;
+            color: rgba(21, 20, 57, 0.40);
+
+            /* Buttons / Small */
+            font-family: DM Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px; /* 137.5% */
+        }
+        .menub span{
+            color:  #25DAC5;
+            margin-right: 15px;
+            /* Buttons / Small */
+            font-family: DM Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px; /* 137.5% */
+        }
+        .btna{
+            width: 100px;
+            height: 40px;
+            border-radius: 100px;
+            background: #25DAC5;
+            color: #FFF;
+            text-align: center;
+            border: none;
+            /* Buttons / Middle */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+        }
+        .txta{
+            width: 714px;
+            color:  #1E0E62;
+            text-align: center;
+            margin: 55px 0 35px 0;
+            /* Heading / H2 Header */
+            font-family: DM Sans;
+            font-size: 58px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 70px; /* 120.69% */
+            letter-spacing: -1px;
+        }
+        .txtb{
+            width: 625px;
+            color: rgba(21, 20, 57, 0.40);
+            text-align: center;
+            margin: 0 0 55px 0;
+            /* Heading / H5 Lead */
+            font-family: DM Sans;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 145.455% */
+        }
+        .btnb{
+            width: 268px;
+            height: 60px;
+            border-radius: 100px;
+            background:  #E93A7D;
+            color:  #FFF;
+            text-align: center;
+            border: none;
+            margin-bottom: 70px;
+            /* Buttons / Big */
+            font-family: DM Sans;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 130% */
+        }
+        .mainb{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .mainc{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+        }
+        .txt_a{
+            width: 228px;
+            color: rgba(21, 20, 57, 0.40);
+            text-align: center;
+
+            /* Text / Article */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px; /* 155.556% */
+        }
+        .txt_b{
+            width: 228px;
+            color: rgba(21, 20, 57, 0.40);
+            text-align: center;
+
+            /* Text / Article */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px; /* 155.556% */
+            }
+        .txt_c{
+            width: 228px;
+            color: rgba(21, 20, 57, 0.40);
+            text-align: center;
+
+            /* Text / Article */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px; /* 155.556% */
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="menu">
+            <div class="startup">Startup3</div>
+            <div class="menua">
+                <span>Tour</span>
+                <span>Prices</span>
+                <span>About</span>
+                <span>FAQ</span>
+                <span>Support</span>
+            </div>
+            <div class="menub">
+                <span>Login</span>
+                <button class="btna">Sign up</button>
+            </div>
+        </div>
+        <div class="txta">Build Your Own Site like a Lego Constructor</div>
+        <div class="txtb">We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.</div>
+        <button class="btnb">Create an Account</button>
+        <div class="mainb">
+            <div class="mainb_a"><img src="./15a.png"/></div>
+            <div style="height: 109px; width: 2px;background-color: lightgray;margin: 0 60px 0 60px; "></div>
+            <div class="mainb_b"><img src="./15b.png"/></div>
+            <div style="height: 109px; width: 2px;background-color: lightgray;margin: 0 60px 0 60px; "></div>
+            <div class="mainb_c"><img src="./15cc.png"/></div>
+        </div>
+        <div class="mainc">
+            <div class="txt_a">A high-quality solution for a beautiful startup website.</div>
+            <div style="height: 100%; width: 5px;background-color: black;margin: 0 30px 0 30px;"></div>
+            <div class="txt_b">Startups can save money on design and code and use those savings to develop the business.</div>
+            <div style="height: 100%; width: 5px;background-color: lightgray;margin: 0 30px 0 30px;"></div>
+            <div class="txt_c">Startup Framework includes great form options for your startup projects.</div>
+
+        </div>
+    </div>
+</body>
+</html>
